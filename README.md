@@ -1,4 +1,4 @@
-This application demonstrates how to use the Cloudant NoSQL DB service, with 
+﻿This application demonstrates how to use the Cloudant NoSQL DB service, with 
 the 'Liberty for Java™' runtime on IBM Bluemix Cloud.
 
 
@@ -26,4 +26,4 @@ This sample works because the code repository contains two interesting files:
           label: cloudantNoSQLDB
           plan: Shared
 
-
+This application is used to test the SK POC DevOps sever configuration
