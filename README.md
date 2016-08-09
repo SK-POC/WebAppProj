@@ -27,3 +27,5 @@ This sample works because the code repository contains two interesting files:
           plan: Shared
 
 This application is used to test the SK POC DevOps sever configuration
+Testing post-commit hook to Jenkins
+
