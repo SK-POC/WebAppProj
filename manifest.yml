@@ -1,0 +1,16 @@
+---
+applications:
+- services:
+  - WebApp_cloudantDB
+  disk_quota: 1024M
+  host: WebApp00123
+  name: WebApp
+  description: This application demonstrates how to use the DevOps pipeline for an app that uses Cloudant NoSQL DB service, with the 'Liberty for Java™' runtime on IBM Bluemix Cloud.
+  image: https://console.ng.bluemix.net/rest/templates/CloudantJavaBPTemplate/cachedIcon/large/0
+  path: WebApp.war
+  instances: 1
+  memory: 512M
+declared-services:
+  WebApp_cloudantDB:
+    label: cloudantNoSQLDB
+    plan: Shared
